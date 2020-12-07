@@ -4,11 +4,11 @@ ruby '2.6.6'
 gem 'bootsnap', require: false
 # gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
-gem 'puma', '~> 4.3', '>= 4.3.7'
+gem 'puma', '~> 5.1'
 gem 'rails'
 gem 'redis'
 gem 'faker'
-gem 'rest-client'
+gem 'rest-client', '~> 2.1'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
